@@ -1,0 +1,7 @@
+#df4b41 red sun
+#e5dfd1 mt. fuji base
+#8ed9f9 blue sky
+#fdfae7 mt. fuji snow cap
+#303e45 text
+#038dcc darker blue
+
