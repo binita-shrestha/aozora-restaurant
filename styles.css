@@ -19,6 +19,7 @@ img{
     top: 0;
     z-index: 1000;
     background-color: #fdfae7;
+    padding-top: 10px;
 }
 .site-nav{ 
     display: flex;
@@ -113,6 +114,41 @@ img{
     object-position: top;
     display: block;
 }
+/* Styling Udon Section */
+.udon-section{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 60px 20px;
+    text-align: center;
+    color: #303e45;
+}
+.udon-section h2{
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 2rem;
+}
+.udon-section p{
+    
+    margin-top: 0;
+    margin-bottom: 15px;
+    line-height: 1.6;
+    text-align: center;
+}
+.video-wrapper{
+    max-width: 850px;
+    margin: 30px auto 0;
+    aspect-ratio: 560 / 350;
+
+    border-radius: 18px;
+    overflow: hidden;
+}
+.video-wrapper iframe{
+    width: 100%;
+    height: 100%;
+    display: block;
+    border: 0;
+}
+/* Styling Footer Section */
 .site-footer {
     display: flex;
     align-items: center;
@@ -122,7 +158,6 @@ img{
     background-color: #8ed9f9;
     color: #303e45;
 }
-
 
 .footer-section {
     flex: 1;
