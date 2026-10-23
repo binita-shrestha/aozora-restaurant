@@ -4,7 +4,7 @@
 }
 body{
     margin: 0;
-    font-family: "Segoe", cursive;
+    font-family: "Segoe UI", Arial, sans-serif;
     background-color: #fdfae7;
 }
 img{
@@ -23,9 +23,10 @@ img{
 }
 .site-nav{ 
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     gap: 30px;
-    padding: 15px, 20px;   
+    padding: 15px 20px;   
 }
 
 .site-nav a{
@@ -183,41 +184,11 @@ img{
         transform: translateX(-50%);
     }
 }
-/* Styling Udon Section */
-.udon-section{
-    max-width: 1000px;
-    margin: 0 auto;
-    padding: 60px 20px;
-    text-align: center;
-    color: #303e45;
-}
-.udon-section h2{
-    margin-top: 0;
-    margin-bottom: 15px;
-    font-size: 2rem;
-}
-.udon-section p{
-    
-    margin-top: 0;
-    margin-bottom: 15px;
-    line-height: 1.6;
-    text-align: center;
-}
-.video-wrapper{
-    max-width: 850px;
-    margin: 30px auto 0;
 
-    border-radius: 18px;
-    overflow: hidden;
-}
-.udon-video{
-    width: 100%;
-    display: block;
-    border-radius: 18px;
-}
 /* Styling Footer Section */
 .site-footer {
     display: flex;
+    flex-wrap: wrap;
     gap: 40px;
     align-items: center;
     justify-content: space-evenly;
@@ -269,7 +240,7 @@ img{
     color: #303e45;
 }
 .facebook-link i {
-    font-size: 1.5 rem;
+    font-size: 1.5rem;
 }
 .menu-image-wrapper {
     position: relative;
@@ -296,12 +267,12 @@ img{
     padding: 0.2cqw 0.4cqw;
 }
 
-/* smaller text for the two yasaitame prices */
+/* smaller text for multi prices */
 .price.small {
     font-size: 0.85cqw;
 }
 
-/* only positions are unique now */
+/* Menu Page 1 - Lunch/Dinner */
 .agedashi-price      { left: 46.7%; top: 28.4%; }
 .cheese-fried-price  { left: 68%;   top: 28.4%; }
 .gyouza-price        { left: 10%;   top: 56.2%; }
@@ -313,3 +284,138 @@ img{
 .tonkatsu-price-pork   { left: 76.3%;   top: 85.8%; }
 .tonkatsu-price-chicken   { left: 76.3%;   top: 87.8%; }
 .tonkatsu-price-fish   { left: 76.3%;   top: 89.8%; }
+
+
+/* Menu Page 2 - Lunch/Dinner */
+.saba-sio-yaki-price     { left: 17.2%; top: 28.2%; }
+.nijimasu-sio-yaki-price { left: 38.3%; top: 28.7%; }
+.saba-nitsuke-price      { left: 77.5%; top: 28%; }
+
+.fish-teriyaki-price     { left: 16.3%; top: 58.4%; }
+.teriyaki-price          { left: 44.9%; top: 57.8%; }
+.happosai-price          { left: 75.0%; top: 57.8%; }
+
+.gyu-niku-piman-price    { left: 13.2%; top: 84.6%; }
+.prawn-chilly-price      { left: 44.7%; top: 84.6%; }
+.tori-niku-piman-price   { left: 76.3%; top: 84.6%; }
+
+
+/* Menu Page 3 - Lunch/Dinner */
+.mabou-tofu-price         { left: 14%; top: 26%; }
+.umekatsu-price           { left: 49.2%; top: 24.2%; }
+.cheesekatsu-price        { left: 47%; top: 26.5%; }
+.nasu-miso-itame-price    { left: 79%; top: 24.8%; }
+
+.tori-karaage-price       { left: 15%; top: 54.5%; }
+.tori-karaage-spicy-price { left: 50.9%; top: 56%; }
+.yakitori-price           { left: 82%; top: 51.2%; }
+.sio-yakitori-price       { left: 78%; top: 57.2%; }
+
+.mix-tempura-price        { left: 15%; top: 80.8%; }
+.veg-tempura-price        { left: 17%; top: 89.8%; }
+.prawn-tempura-price      { left: 17%; top: 95%; }
+.tofu-steak-price         { left: 47.2%; top: 84.5%; }
+.chicken-nanban-price     { left: 81%; top: 82.5%; }
+
+
+/* Menu Page 4 - Donburi */
+.katsudon-price    { left: 53%; top: 26.5%; }
+.tendon-price      { left: 85%; top: 26.5%; }
+
+.chukadon-price    { left: 20.5%; top: 55.8%; }
+.teriyakidon-price { left: 57.8%; top: 55.8%; }
+.tamagodon-price   { left: 87%; top: 55.4%; }
+
+.oyakodon-price    { left: 19%; top: 85.8%; }
+.butadon-price     { left: 54%; top: 84.5%; }
+.mabodon-price     { left: 91%; top: 85%; }
+
+
+/* Menu Page 5 - Sushi */
+.kappamaki-price           { left: 54%; top: 25.3%; }
+.norimaki-price            { left: 86.5%; top: 24.5%; }
+
+.tuna-nigiri-price         { left: 20%; top: 55.5%; }
+.tuna-mayo-maki-price      { left: 60%; top: 56.3%; }
+.chicken-cutlet-maki-price { left: 83%; top: 55.5%; }
+
+.salmon-nigiri-price       { left: 23.6%; top: 87%; }
+.prawnmaki-price           { left: 57%; top: 85%; }
+.mix-sushi-plate-price     { left: 88%; top: 85.5%; }
+
+
+/* Menu Page 6 - Ramen */
+.avocado-roll-price        { left: 31%; top: 28%; }
+.avocado-salmon-roll-price { left: 32%; top: 30.2%; }
+
+.chasumen-price            { left: 26%; top: 57.5%; }
+.simple-ramen-price        { left: 63%; top: 57.5%; }
+.miso-ramen-price          { left: 89%; top: 57.5%; }
+
+.thanmen-price             { left: 22%; top: 86.5%; }
+.tamago-ramen-price        { left: 54%; top: 86%; }
+.ramen-half-chahan-price   { left: 86%; top: 87%; }
+
+
+/* Menu Page 7 - Bento and Curry */
+.regular-bento-price { left: 25%; top: 40.8%; }
+.sushi-bento-price   { left: 84.4%; top: 41.2%; }
+
+.katsu-curry-price   { left: 19.2%; top: 86.7%; }
+.veg-curry-price     { left: 52%; top: 86.9%; }
+.chicken-curry-price { left: 87%; top: 86.8%; }
+
+
+/* Menu Page 8 - Udon, Soba and Rice */
+.tempura-udon-price         { left: 60%; top: 26.5%; }
+.toriudon-price             { left: 86.5%; top: 26.5%; }
+
+.simple-udon-price          { left: 26.5%; top: 55.5%; }
+.curry-udon-price           { left: 48.5%; top: 55.5%; }
+.yaki-udon-price            { left: 82.5%; top: 55.5%; }
+
+.simple-soba-price          { left: 26.5%; top: 69%; }
+.vegetable-fried-rice-price { left: 55.4%; top: 69%; }
+.mixed-fried-rice-price     { left: 85.7%; top: 69%; }
+
+.ojiya-price                { left: 15.5%; top: 84%; }
+.okayu-price                { left: 51%; top: 84%; }
+.onigiri-price              { left: 86.4%; top: 84%; }
+
+
+/* Menu Page 9 - Salad */
+.hiyayakko-tofu-price  { left: 58%; top: 26%; }
+.tofu-salad-price      { left: 91%; top: 26%; }
+
+.rice-noodle-salad-price { left: 29%; top: 55.8%; }
+.boiled-veg-salad-price  { left: 63%; top: 55.8%; }
+.goma-ae-price           { left: 84%; top: 55.5%; }
+
+.green-salad-price    { left: 28.5%; top: 82.6%; }
+.karashi-ae-price     { left: 56.5%; top: 83%; }
+.sunomono-price       { left: 89%; top: 85%; }
+
+
+/* Menu Page 10 - Dessert/Drink */
+.custard-pudding-price {
+    left: 71.5%;
+    top: 35.2%;
+}
+
+.icecream-price        { left: 18.4%; top: 35.2%; }
+.chocolate-sundae-price { left: 48.6%; top: 35.2%; }
+
+/* Cover discontinued Green Tea Ice Cream */
+.green-tea-cover {
+    position: absolute;
+    left: 80%;
+    top: 12%;
+    width: 20%;
+    height: 29%;
+    background-color: #f9f9f9;
+}
+
+.menu-gallery > img{
+    width: 100%;
+    display: block;
+}
