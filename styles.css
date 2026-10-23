@@ -206,16 +206,14 @@ img{
 .video-wrapper{
     max-width: 850px;
     margin: 30px auto 0;
-    aspect-ratio: 560 / 350;
 
     border-radius: 18px;
     overflow: hidden;
 }
-.video-wrapper iframe{
+.udon-video{
     width: 100%;
-    height: 100%;
     display: block;
-    border: 0;
+    border-radius: 18px;
 }
 /* Styling Footer Section */
 .site-footer {
@@ -273,3 +271,45 @@ img{
 .facebook-link i {
     font-size: 1.5 rem;
 }
+.menu-image-wrapper {
+    position: relative;
+    width: 100%;
+              /* optional cap max-width: 1200px;*/
+    margin: 0 auto;
+    container-type: inline-size; /* makes cqw units work */
+}
+
+.menu-image-wrapper img {
+    width: 100%;
+    display: block;
+}
+
+/* shared styles for ALL price boxes */
+.price {
+    position: absolute;
+    white-space: nowrap;
+    background-color: white;
+    color: #2f6f7e;
+    font-weight: 800;
+    font-size: 1.4cqw;            /* scales with the image */
+    line-height: 1;
+    padding: 0.2cqw 0.4cqw;
+}
+
+/* smaller text for the two yasaitame prices */
+.price.small {
+    font-size: 0.85cqw;
+}
+
+/* only positions are unique now */
+.agedashi-price      { left: 46.7%; top: 28.4%; }
+.cheese-fried-price  { left: 68%;   top: 28.4%; }
+.gyouza-price        { left: 10%;   top: 56.2%; }
+.yasaitame-price-veg { left: 50.2%; top: 57.3%; }
+.yasaitame-price-nveg{ left: 50.2%; top: 59.6%; }
+.korokke-price       { left: 75%;   top: 56.4%; }
+.prawn-fried-price   { left: 15.3%;   top: 84.4%; }
+.syougayaki-price   { left: 44.7%;   top: 84.4%; }
+.tonkatsu-price-pork   { left: 76.3%;   top: 85.8%; }
+.tonkatsu-price-chicken   { left: 76.3%;   top: 87.8%; }
+.tonkatsu-price-fish   { left: 76.3%;   top: 89.8%; }
