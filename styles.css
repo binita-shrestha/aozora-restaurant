@@ -419,3 +419,60 @@ img{
     width: 100%;
     display: block;
 }
+.mobile-banner {
+    display: none;
+}
+
+@media (max-width: 600px) {
+    .logo-banner {
+        height: auto;
+        background-image: none;
+        box-shadow: none;
+    }
+
+    .mobile-banner {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+}
+/* Mobile Hamburger Navigation */
+.menu-toggle {
+    display: none;
+}
+
+@media (max-width: 600px) {
+    .site-header {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .menu-toggle {
+        display: block;
+        align-self: flex-end;
+        background-color: #e5dfd1;
+        color: #303e45;
+        border: none;
+        border-radius: 10px;
+        padding: 10px 16px;
+        font-size: 1.5rem;
+        cursor: pointer;
+    }
+
+    .site-nav {
+        display: none;
+        flex-direction: column;
+        align-items: stretch;
+        gap: 10px;
+        width: 100%;
+        padding: 15px 0;
+    }
+
+    .site-nav.is-open {
+        display: flex;
+    }
+
+    .site-nav a {
+        text-align: center;
+    }
+}

@@ -1,106 +1,219 @@
-# Aozora Japanese Restaurant — Official Website
+# Aozora Japanese Restaurant
 
-Website development project for **Aozora Japanese Restaurant**, a family-owned Japanese restaurant established in 2014 in Lakeside-6, Pokhara, Nepal.
+Official website development project for **Aozora Japanese Restaurant**, a family-owned Japanese restaurant established in 2014 in Lakeside-6, Pokhara, Nepal.
 
-This is an ongoing, real-world software development project focused on building, deploying, and maintaining the restaurant's public website and future digital services.
+This is an ongoing, real-world software engineering project focused on designing, developing, deploying, and maintaining the restaurant's website and future digital services.
 
-**Development started:** August 2026  
-**Project status:** Version 1.0 — Preparing for initial deployment  
-**Developers:** Nirmal Moktan and Binita Shrestha
+**Development Started:** August 2026  
+**Current Version:** 1.x — Static Website  
+**Status:** Deployed for testing and development  
+**Developers:** Nirmal Moktan and Binita Shrestha  
+**Hosting:** Cloudflare Pages
 
-## Version 1.0 — Static Website
+### Live Website
 
-The initial version is built with HTML and CSS, with JavaScript included for future functionality.
+**https://aozora-restaurant.pages.dev/**
+
+The current website is deployed for development and testing. The official customer launch is planned after the next major redesign.
+
+---
+
+## Version 1 — Static Website
+
+The first version of Aozora's website was developed using HTML5, CSS3, and JavaScript.
+
+It establishes the restaurant's online presence and serves as the foundation for future full-stack development.
 
 ### Features
 
 - Restaurant homepage with branding, introduction, and business information.
-- Food gallery with an automatically scrolling image carousel.
-- Digital menu displaying 10 pages of restaurant dishes.
-- HTML/CSS price overlays for updating menu prices without editing the original menu photographs.
-- Navigation between homepage and menu.
-- Restaurant contact information, opening hours, and location.
-- Google Maps and Facebook links.
+- Responsive navigation with a hamburger menu for mobile devices.
+- Homepage banner optimized for desktop and mobile screens.
+- Automatically scrolling food photography gallery.
+- Digital menu displaying 10 pages of Japanese dishes and drinks.
+- HTML/CSS price overlays allowing price updates without modifying original menu photographs.
+- Restaurant location, contact information, and operating hours.
+- Google Maps integration for directions.
+- Facebook link for restaurant updates.
 - Link to the restaurant's existing third-party online ordering service.
+- Automatic deployment to Cloudflare Pages through GitHub integration.
 
-### Technologies
+## Screenshots
 
-- HTML5
-- CSS3
-- JavaScript
-- Git and GitHub
-- Visual Studio Code
+The following screenshots document the original HTML/CSS website before migration to the modern full-stack architecture.
 
-### Project Structure
+### Desktop Homepage
 
-```text
-Aozora/
-├── index.html       # Restaurant homepage
-├── menu.html        # Digital menu
-├── styles.css       # Website styling
-├── script.js        # JavaScript (currently empty)
-├── img/             # Restaurant images and menu photographs
-└── README.md        # Project documentation
-```
+![Aozora Restaurant Desktop Homepage](docs/screenshots/v1/desktop-home.png)
 
-### Running Locally
+### Mobile Homepage
 
-1. Clone the GitHub repository.
-2. Open the project folder in Visual Studio Code.
-3. Open `index.html` in a web browser.
-4. Use the navigation bar to access the menu and other sections.
+![Aozora Restaurant Mobile Homepage](docs/screenshots/v1/mobile-home.png)
 
-Version 1.0 does not require a backend, database, or package installation.
+### Digital Menu
 
-## Deployment
+![Aozora Restaurant Digital Menu](docs/screenshots/v1/desktop-menu.png)
 
-The initial website is planned for deployment using Cloudflare Pages, with GitHub integration for automated deployments.
-
-The restaurant's official domain will be connected after registration and DNS configuration are completed.
-
-## Development Roadmap
-
-### Version 2.0 — Modern Frontend
-
-- Migrate to Next.js, React, and TypeScript.
-- Use Tailwind CSS for responsive styling.
-- Redesign the website with a mobile-first approach.
-- Replace image-based menus with searchable, category-based digital menus.
-- Add reusable UI components and optional food thumbnails.
-- Introduce automated frontend testing.
-
-### Version 3.0 — Full-Stack Application
-
-- Develop a backend API using Node.js, Express, and TypeScript.
-- Integrate PostgreSQL hosted on Neon.
-- Use Prisma for database access and migrations.
-- Implement secure staff authentication.
-- Build an administrative dashboard for managing menus, prices, and availability.
-- Introduce customer feedback collection and business analytics.
-- Configure CI/CD using GitHub Actions.
-
-### Future Development
-
-- Online table reservations.
-- Pickup ordering functionality.
-- Staff management of reservations and orders.
-- Analytics dashboards showing actual website usage and business activity.
-- Performance monitoring, security improvements, and ongoing maintenance.
-
-These features are planned and are not part of Version 1.0.
-
-## Collaboration and Version Control
-
-Development is carried out collaboratively using a shared GitHub repository.
-
-Git branches, commits, pull requests, and version tags will be used to manage development, document changes, and preserve major releases.
-
-## Long-Term Goal
-
-Develop a reliable, accessible, and maintainable production website that supports Aozora Japanese Restaurant's operations and improves the experience of its customers.
-
-The application will evolve incrementally based on actual restaurant needs, customer feedback, and measured website usage.
+These screenshots are preserved to document the website's development history and demonstrate improvements across future versions.
 
 ---
 
-© 2026 Aozora Japanese Restaurant.
+## Technologies Used
+
+### Version 1
+
+- **HTML5** — Website structure and content.
+- **CSS3** — Layout, styling, animations, and responsive design.
+- **JavaScript** — Interactive mobile navigation.
+- **Git** — Source control and version history.
+- **GitHub** — Repository hosting and developer collaboration.
+- **Cloudflare Pages** — Website hosting and automated deployment.
+- **Visual Studio Code** — Development environment.
+
+## Project Structure
+
+```text
+Aozora/
+├── docs/
+│   └── screenshots/
+│       └── v1/
+│           ├── desktop-home.png
+│           ├── mobile-home.png
+│           └── desktop-menu.png
+├── img/
+│   └── Restaurant images and menu photographs
+├── index.html
+├── menu.html
+├── styles.css
+├── script.js
+└── README.md
+```
+
+## Running Locally
+
+1. Clone the repository from GitHub.
+2. Open the project folder in Visual Studio Code.
+3. Open `index.html` in your web browser.
+4. Navigate to the menu and other sections using the website navigation.
+
+Version 1 does not require package installation, a backend server, or a database.
+
+---
+
+## Deployment
+
+Version 1 is hosted on **Cloudflare Pages** and connected to the GitHub repository.
+
+The deployment process follows this workflow:
+
+1. Developers make changes locally.
+2. Changes are committed and pushed to GitHub.
+3. Cloudflare automatically detects changes to the `main` branch.
+4. Cloudflare deploys the updated static website.
+
+The website currently uses a temporary `.pages.dev` domain. A custom restaurant domain will be connected after registration and DNS configuration are complete.
+
+---
+
+## Development Roadmap
+
+### Version 2 — Modern Frontend
+
+The next major version will replace the original HTML/CSS website with a modern, mobile-first frontend.
+
+**Planned Technologies:**
+- Next.js
+- React
+- TypeScript
+- Tailwind CSS
+
+**Planned Features:**
+- Fully responsive restaurant website.
+- Reusable React components.
+- Redesigned homepage and navigation.
+- Category-based digital menu.
+- Searchable menu items.
+- Menu cards displaying dish names, descriptions, and prices.
+- Optional food photography.
+- Improved accessibility and search engine optimization.
+- Automated frontend testing.
+
+The digital menu will use structured data rather than positioning prices over photographs of printed menus.
+
+### Version 3 — Full-Stack Application
+
+The following phase will introduce backend functionality, persistent data storage, and restaurant management features.
+
+**Planned Technologies:**
+- Node.js
+- Express.js
+- TypeScript
+- PostgreSQL
+- Neon
+- Prisma
+- Zod
+- GitHub Actions
+- Vitest and Playwright
+
+**Planned Features:**
+- REST API for restaurant data.
+- Secure staff authentication.
+- PostgreSQL database integration.
+- Administrative dashboard.
+- Editable menu items, prices, and availability.
+- Restaurant announcement management.
+- Customer feedback collection.
+- Business analytics and reporting.
+- Automated testing and CI/CD pipelines.
+
+### Future Development
+
+Potential future functionality includes:
+
+- Online table reservations.
+- Pickup ordering.
+- Reservation and order management for restaurant staff.
+- Customer feedback analysis.
+- Website traffic and engagement analytics.
+- Business performance dashboards.
+- Monitoring, database backups, security updates, and ongoing maintenance.
+
+Future features will be prioritized based on the restaurant's operational needs and customer feedback.
+
+---
+
+## Collaboration and Version Control
+
+This application is collaboratively developed and maintained by **Nirmal Moktan and Binita Shrestha**.
+
+Development uses a shared GitHub repository with both developers contributing to the same codebase.
+
+Our development workflow includes:
+
+- Git commits to document changes.
+- Feature branches for new functionality.
+- Pull requests and code reviews as the project evolves.
+- Version tags to preserve major releases.
+- Automated deployments through Cloudflare Pages.
+
+Major versions and screenshots will be preserved to document the project's technical evolution.
+
+## Long-Term Goals
+
+The goal is to build and maintain a reliable, accessible, and scalable full-stack application serving Aozora Japanese Restaurant and its customers.
+
+The project will evolve from an informational website into a system supporting restaurant operations, customer interactions, and data-driven business decisions.
+
+Development will focus on:
+
+- Real-world software engineering practices.
+- Maintainable and reusable code.
+- Mobile-first user experience.
+- Security and application reliability.
+- Automated testing and deployment.
+- Measurable improvements in website performance and customer engagement.
+- Long-term maintainability.
+
+---
+
+© 2026 Aozora Japanese Restaurant. All rights reserved.

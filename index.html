@@ -17,7 +17,13 @@
     <body id="home">
         <!-- Add HTML markup elements for your web site below -->
         <header class="site-header" > 
-            <nav class="site-nav">
+            <button class="menu-toggle" type="button"
+                    aria-label="Toggle navigation"
+                    aria-controls="site-nav"
+                    aria-expanded="false">
+                ☰
+            </button>
+            <nav class="site-nav" id="site-nav">
                 <a href="#home">Home</a>
                 <a href="#about">About Us</a>
                 <a href="menu.html">Menu</a>
@@ -26,13 +32,14 @@
             </nav>
         </header>
         <div class="logo-banner">
+            <img class="mobile-banner" src="img/image1.jpg" alt="Aozora Japanese Restaurant">
             <div class="announcement-bar">Summer Special: Cold Udon is now available!</div>
         </div>
         
         <main>
             <section id="about" class="about-section">
                 <h2>Welcome to Aozora Japanese Restaurant</h2>
-                <p>We are a Family-owned Japanese Restuarant in the heart of Pokhara City serving authentic Japanese cuisine. We prepare fresh Tofu, Udon, Ramen, and Soba Noodles in-house.
+                <p>We are a Family-owned Japanese Restaurant in the heart of Pokhara City serving authentic Japanese cuisine. We prepare fresh Tofu, Udon, Ramen, and Soba Noodles in-house.
                 
                 </p>                  
                 <p class="established">EST. 2014</p>
