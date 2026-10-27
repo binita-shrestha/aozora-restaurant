@@ -4,7 +4,7 @@ Official website development project for **Aozora Japanese Restaurant**, a famil
 
 This is an ongoing, real-world software engineering project focused on designing, developing, deploying, and maintaining the restaurant's website and future digital services.
 
-**Development Started:** August 2026  
+**Development Started:** May 2026  
 **Current Version:** 1.x — Static Website  
 **Status:** Deployed for testing and development  
 **Developers:** Nirmal Moktan and Binita Shrestha  
