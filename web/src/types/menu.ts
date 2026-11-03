@@ -8,6 +8,7 @@ export type MenuItem = {
   subcategory?: (typeof drinkSubcategories)[number];
   description?: string;
   vegetarian?: boolean;
+  nonvegetarian?: boolean;
   image?: string;
 } & (
   | {
