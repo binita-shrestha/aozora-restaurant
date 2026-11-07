@@ -83,7 +83,7 @@ export const menuItems: MenuItem[] = [
     nonvegetarian:true,
     description: "Deep fried breaded pork/chicken/fish cutlet.",
     only: 450,
-    set: 690,
+    set: 750,
   },
   {
     id: 10,
@@ -155,7 +155,7 @@ export const menuItems: MenuItem[] = [
     nonvegetarian:true,
     description: "Stir-fried shrimp with chilly sauce.",
     only: 700,
-    set: 100,
+    set: 1000,
   },
   {
     id: 18,
@@ -264,7 +264,7 @@ export const menuItems: MenuItem[] = [
     nonvegetarian:true,
     description: "Prawns that have been battered and deep fried.",
     only: 700,
-    set: 100,
+    set: 1000,
   },
   {
     id: 30,
@@ -559,7 +559,7 @@ export const menuItems: MenuItem[] = [
     category: "Udon/Soba",
     vegetarian: true,
     nonvegetarian:true,
-    description: "Fried udon", 
+    description: "Fried Udon noodles with tofu/chicken", 
     price: 600, 
   },
   {
@@ -567,7 +567,7 @@ export const menuItems: MenuItem[] = [
     name: "Simple Soba", 
     category: "Udon/Soba",
     vegetarian: true,
-    description: "SOBA IN SOYA BASED SOUP", 
+    description: "Soba in soya based soup", 
     price: 630, 
   },
 
@@ -576,7 +576,7 @@ export const menuItems: MenuItem[] = [
     id: 67,
     name: "Vegetable Fried Rice", 
     category: "Rice",
-    description: "RICE FRIED WITH SEASONABLE VEGETABLES", 
+    description: "Rice fried with seasonal vegetables", 
     vegetarian: true,
     price: 400, 
   },
@@ -584,15 +584,16 @@ export const menuItems: MenuItem[] = [
     id: 68,
     name: "Mixed Fried Rice", 
     category: "Rice",
+    vegetarian: true,
     nonvegetarian:true,
-    description: "RICE FRIED WITH CHICKEN, AND EGG", 
+    description: "Rice fried with chicken/tofu and/or egg", 
     price: 490, 
   },
   {
     id: 69,
     name: "Ojiya", 
     category: "Rice",
-    description: "RICE PORRIGDE WITH MIXED VEGETABLES AND EGG", 
+    description: "Rice porridge with mixed vegetables and egg", 
     vegetarian: true,
     price: 430, 
   },
@@ -601,7 +602,7 @@ export const menuItems: MenuItem[] = [
     name: "Okayu", 
     category: "Rice",
     vegetarian: true,
-    description: "RICE PORRIDGE", 
+    description: "Rice porridge", 
     price: 380, 
   },
   {
@@ -637,7 +638,7 @@ export const menuItems: MenuItem[] = [
     category: "Salad",
     vegetarian: true,
     description: "Rice Vermicelli salad", 
-    price: 200, 
+    price: 290, 
   },
   {
     id: 75,
@@ -786,7 +787,7 @@ export const menuItems: MenuItem[] = [
   },
   {
     id: 94,
-    name: "Green Tea Port",
+    name: "Green Tea Pot",
     category: "Drinks",
     subcategory: "Hot",
     price: 380, 
@@ -833,20 +834,14 @@ export const menuItems: MenuItem[] = [
     name: "Sherpa Craft", 
     category: "Drinks",
     subcategory: "Beer",
-    price: 300, 
-    description: "300ml - Rs. 300/- 500ml - Rs. 500/-"
+    price300ml: 300,
+    price500ml: 500
   },
-  {
-    id: 101,
-    name: "Asahi", 
-    category: "Drinks",
-    subcategory: "Beer",
-    price: 550, 
-  },
+
 
   // DRINKS - Hard Drinks
   {
-    id: 102,
+    id: 101,
     name: "Signature",
     category: "Drinks",
     subcategory: "Hard Drinks",
@@ -854,7 +849,7 @@ export const menuItems: MenuItem[] = [
     price180ml: 1150, 
   },
   {
-    id: 103,
+    id: 102,
     name: "Khukuri Rum", 
     category: "Drinks",
     subcategory: "Hard Drinks",
@@ -862,7 +857,7 @@ export const menuItems: MenuItem[] = [
     price180ml: 1100, 
   },
   {
-    id: 104,
+    id: 103,
     name: "Gin",
     category: "Drinks",
     subcategory: "Hard Drinks",
@@ -870,7 +865,7 @@ export const menuItems: MenuItem[] = [
     price180ml: 1100,
   },
   {
-    id: 105,
+    id: 104,
     name: "Vodka",
     category: "Drinks",
     subcategory: "Hard Drinks",
@@ -878,7 +873,7 @@ export const menuItems: MenuItem[] = [
     price180ml: 1100,
   },
   {
-    id: 106,
+    id: 105,
     name: "8848 Vodka",
     category: "Drinks",
     subcategory: "Hard Drinks",
@@ -886,7 +881,7 @@ export const menuItems: MenuItem[] = [
     price180ml: 1150, 
   },
   {
-    id: 107,
+    id: 106,
     name: "Old Durbar (Black)", 
     category: "Drinks",
     subcategory: "Hard Drinks",
@@ -894,7 +889,7 @@ export const menuItems: MenuItem[] = [
     price180ml: 1350, 
   },
   {
-    id: 108,
+    id: 107,
     name: "JD", 
     category: "Drinks",
     subcategory: "Hard Drinks",
@@ -902,7 +897,7 @@ export const menuItems: MenuItem[] = [
     price180ml: 2400, 
   },
   {
-    id: 109,
+    id: 108,
     name: "Chivas", 
     category: "Drinks",
     subcategory: "Hard Drinks",
@@ -910,7 +905,7 @@ export const menuItems: MenuItem[] = [
     price180ml: 2400, 
   },
   {
-    id: 110,
+    id: 109,
     name: "Red Label", 
     category: "Drinks",
     subcategory: "Hard Drinks",
@@ -918,7 +913,7 @@ export const menuItems: MenuItem[] = [
     price180ml: 2100, 
   },
   {
-    id: 111,
+    id: 110,
     name: "Japanese Sake", 
     category: "Drinks",
     subcategory: "Hard Drinks",

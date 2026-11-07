@@ -33,7 +33,12 @@ export default function MenuItemCard({ item }: { item: MenuItem }) {
             <span>Only: Rs. {item.only}</span>
             <span>Set: Rs. {item.set}</span>
           </div>
-        ) : (
+        ): item.price300ml !== undefined ? (
+          <div className="mt-2 flex flex-wrap gap-4 font-semibold">
+            <span>300ml: Rs. {item.price300ml}</span>
+            <span>500ml: Rs. {item.price500ml}</span>
+          </div>
+        ): (
           <div className="mt-2 flex flex-wrap gap-4 font-semibold">
             <span>60ml: Rs. {item.price60ml}</span>
             <span>180ml: Rs. {item.price180ml}</span>

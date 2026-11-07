@@ -17,6 +17,8 @@ export type MenuItem = {
       set?: never;
       price60ml?: never;
       price180ml?: never;
+      price300ml?: never;
+      price500ml?: never;
     }
   | {
       price?: never;
@@ -24,6 +26,8 @@ export type MenuItem = {
       set: number;
       price60ml?: never;
       price180ml?: never;
+      price300ml?: never;
+      price500ml?: never;
     }
   | {
       price?: never;
@@ -31,5 +35,16 @@ export type MenuItem = {
       set?: never;
       price60ml: number;
       price180ml: number;
+      price300ml?: never;
+      price500ml?: never;
+    }
+  | {
+      price?: never;
+      only?: never;
+      set?: never;
+      price60ml?: never;
+      price180ml?: never;
+      price300ml: number;
+      price500ml: number;
     }
 );
