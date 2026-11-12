@@ -13,11 +13,7 @@ export default function MenuItemCard({ item }: { item: MenuItem }) {
               V
             </span>
           )}
-          {item.nonvegetarian && (
-            <span className="rounded border border-red-700 px-2 py-0.5 text-xs font-semibold text-red-700">
-              N
-            </span>
-          )}
+          
         </div>
 
         {item.description && (
