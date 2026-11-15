@@ -1,5 +1,5 @@
 
-import MenuBrowser from "@/components/MenuBrowser";
+import MenuBrowser from "@/components/menupage/MenuBrowser";
 import { menuItems } from "@/data/menuItems";
 
 export default function MenuPage() {
