@@ -34,9 +34,9 @@ export default function MenuBrowser({ items }: { items: MenuItem[] }) {
             type="button"
             onClick={() => setSelectedCategory(category)}
             aria-pressed={selectedCategory === category}
-            className={`shrink-0 rounded-lg px-4 py-2 text-sm font-medium ${
+            className={`shrink-0 rounded-lg px-4 py-2 text-sm font-medium  cursor-pointer transition-all ${
                 selectedCategory === category
-                ? "bg-aozora-dark text-white"
+                ? "bg-aozora-dark text-aozora-cream"
                 : "bg-aozora-cream text-aozora-dark"
             }`}
             >
@@ -62,7 +62,7 @@ export default function MenuBrowser({ items }: { items: MenuItem[] }) {
                 type="button"
                 onClick={() => setSelectedDrinkSubcategory(subcategory)}
                 aria-pressed={selectedDrinkSubcategory === subcategory}
-                className={`shrink-0 rounded-full border px-4 py-2 text-sm ${
+                className={`shrink-0 rounded-full border px-4 py-2 text-sm cursor-pointer ${
                     selectedDrinkSubcategory === subcategory
                     ? "border-aozora-red bg-aozora-red text-white"
                     : "border-aozora-dark/20 text-aozora-dark"

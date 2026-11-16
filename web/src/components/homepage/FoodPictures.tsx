@@ -2,6 +2,7 @@ import Image from 'next/image';
 
 export default function FoodPictures() {
     return (
+        <div className="bg-aozora-cream">
         <section className="py-12 px-8 max-w-7xl mx-auto bg-aozora-red">
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {/* Food Image */}
@@ -117,5 +118,6 @@ export default function FoodPictures() {
             </div>
 
         </section>
+        </div>
     );
 }

@@ -3,7 +3,7 @@ import type { MenuItem } from "@/types/menu";
 //display function
 export default function MenuItemCard({ item }: { item: MenuItem }) {
   return (
-    <article className="mb-3 flex items-start gap-4 rounded-xl border border-aozora-dark/10 bg-white p-4 shadow-sm">
+    <article className="mb-3 flex items-start gap-4 rounded-xl border border-aozora-dark/10 bg-aozora-cream p-4 shadow-sm">
       <div className="min-w-0 flex-1">
         <div className="flex flex-wrap items-center gap-2">
           <h3 className="text-lg font-semibold">{item.name}</h3>
@@ -46,9 +46,9 @@ export default function MenuItemCard({ item }: { item: MenuItem }) {
         <Image
           src={item.image}
           alt={item.name}
-          width={96}
-          height={96}
-          className="h-24 w-24 shrink-0 rounded-lg object-cover"
+          width={160}
+          height={128}
+          className="h-32 w-40 shrink-0 rounded-lg object-cover"
         />
       )}
     </article>

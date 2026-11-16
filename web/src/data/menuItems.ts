@@ -29,6 +29,7 @@ export const menuItems: MenuItem[] = [
     description: "Japanese style pan fried dumpling (chicken or pork).",
     only: 390,
     set: 690,
+    image: "/images/gyouza.png",
   },
   {
     id: 4,
@@ -103,6 +104,7 @@ export const menuItems: MenuItem[] = [
     description: "Boiled mackerel with ginger flavour soya based sauce.",
     only: 850,
     set: 1150,
+    image:"/images/sabanosioyaki.png"
   },
   {
     id: 13,
