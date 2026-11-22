@@ -1,7 +1,11 @@
+"use client";
+
+import {useState} from "react";
 import Image from "next/image";
 import type { MenuItem } from "@/types/menu";
 //display function
 export default function MenuItemCard({ item }: { item: MenuItem }) {
+  const [failedImageSrc, setFailedImageSrc] = useState<string | null>(null);
   return (
     <article className="mb-3 flex items-start gap-4 rounded-xl border border-aozora-dark/10 bg-aozora-cream p-4 shadow-sm">
       <div className="min-w-0 flex-1">
@@ -42,15 +46,23 @@ export default function MenuItemCard({ item }: { item: MenuItem }) {
         )}
       </div>
 
-      {item.image && (
-        <Image
-          src={item.image}
-          alt={item.name}
-          width={160}
-          height={128}
-          className="h-32 w-40 shrink-0 rounded-lg object-cover"
-        />
+      {"image" in item && (
+        item.image && failedImageSrc !== item.image ? (
+          <Image
+            src={item.image}
+            alt={item.name}
+            width={192}
+            height={144}
+            className="h-36 w-48 shrink-0 rounded-lg object-cover"
+            onError={() => setFailedImageSrc(item.image ?? null)}
+          />
+        ) : (
+          <div className="flex h-36 w-48 shrink-0 items-center justify-center rounded-lg border border-aozora-dark/10 bg-aozora-cream px-3 text-center text-sm text-aozora-dark/60">
+            📷 Picture Coming Soon
+          </div>
+        )
       )}
+    
     </article>
   );
 }
