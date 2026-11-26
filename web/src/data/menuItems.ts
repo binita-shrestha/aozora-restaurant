@@ -9,9 +9,9 @@ export const menuItems: MenuItem[] = [
     name: "Set",
     category: "Lunch/Dinner",
     vegetarian: true,
-    description: "Set consists of a bowl of rice, miso soup, and daily side dishes.",
+    description: "Set consists of a bowl of rice, miso soup, and daily side dishes. Side dishes may vary.",
     price:300,
-    image: "/images/side.png",
+    image: "/images/set.png",
   },
   {
     id: 1,
@@ -500,27 +500,21 @@ export const menuItems: MenuItem[] = [
     name: "Regular Bento Box", 
     category: "Bento Box",
     price: 990,
+    description: "Complete Japanese meal box with steamed rice, crispy fried prawns, teriyaki chicken, tamagoyaki, fresh salad, pickles, and miso soup.",
     image: "/images/regularbentobox.png", 
   }, 
   {
     id: 57,
     name: "Sushi Bento Box", 
     category: "Bento Box",
-    description: "You can choose your own sushi tuna/prawn/chicken/veg", 
+    description: "Regular bento box plus you can choose your own sushi tuna/prawn/chicken/veg", 
     price: 1300, 
     image: "/images/sushibentobox.png", 
   },
   // CURRY RICE
+  
   {
     id: 58,
-    name: "Katsu Curry Rice", 
-    category: "Curry Rice",
-    description: "Japanese curry served with rice, topped with pork/chicken cutlet", //[cite: 7]
-    price: 750,
-    image: "/images/katsucurryrice.png",  
-  },
-  {
-    id: 59,
     name: "Veg Curry Rice", 
     category: "Curry Rice",
     description: "Japanese vegetable curry served with rice",
@@ -529,12 +523,20 @@ export const menuItems: MenuItem[] = [
     image: "/images/vegcurryrice.png",
   },
   {
-    id: 60,
+    id: 59,
     name: "Chicken Curry Rice",
     category: "Curry Rice",
     description: "Japanese chicken curry served with rice", 
     price: 700,
     image: "/images/chickencurryrice.png", 
+  },
+  {
+    id: 60,
+    name: "Katsu Curry Rice", 
+    category: "Curry Rice",
+    description: "Japanese curry served with rice, topped with pork/chicken cutlet", //[cite: 7]
+    price: 750,
+    image: "/images/katsucurryrice.png",  
   },
   // UDON/SOBA
   {

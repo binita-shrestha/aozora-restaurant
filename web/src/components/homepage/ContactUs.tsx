@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export default function ContactUs() {
   return (
-    <footer className="bg-aozora-blue py-4 px-4 md:pr-8 h-[320px] flex items-center">
+    <footer id="contact" className="bg-aozora-blue py-8 md:py-4 px-4 md:pr-8 min-h-[320px] flex items-center">
       <div className="grid grid-cols-1 md:grid-cols-5 gap-8 items-center h-full w-full">
         
         {/* 1. Logo Section */}
@@ -21,7 +21,7 @@ export default function ContactUs() {
         <div className="flex flex-col items-center md:items-start text-center md:text-left">
           <h3 className="font-bold text-aozora-dark text-lg mb-4">Contact Us</h3>
           <p className="text-slate-600 mb-2">Phone: 061-451707</p>
-          <p className="text-slate-600">info@aozora.com.np</p>
+          <p className="text-slate-600">email coming soon...</p>
         </div>
 
         {/* 3. Address Section */}

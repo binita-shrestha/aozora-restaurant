@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 export default function AboutUs() {
   return (
-    <section className="bg-aozora-cream py-16 px-4 md:px-8">
+    <section id="about" className="bg-aozora-cream py-16 px-4 md:px-8">
       <div className="max-w-6xl mx-auto flex flex-col items-center">
         {/* Intro Paragraph */}
         <div className="text-center max-w-3xl mb-12">

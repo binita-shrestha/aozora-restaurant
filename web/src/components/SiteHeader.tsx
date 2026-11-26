@@ -21,7 +21,7 @@ export default function SiteHeader() {
     <header className="sticky top-0 z-50 border-b border-aozora-dark/10 bg-aozora-blue">
       <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
         <Link href="/" className="text-2xl font-bold text-aozora-dark">
-          Aozora
+          AoZoRa
         </Link>
 
         {/* Desktop navigation */}
