@@ -8,7 +8,7 @@ export default function FoodPictures() {
             {/* Food Image */}
             <div className="w-full">
                 <Image 
-                    src="/images/in1.jpeg" 
+                    src="/images/in2.jpeg" 
                     alt="Aozora interior" 
                     width={400} 
                     height={300} 
@@ -53,7 +53,7 @@ export default function FoodPictures() {
             </div>
             <div className="w-full">
                 <Image 
-                    src="/images/in2.jpeg" 
+                    src="/images/in1.jpeg" 
                     alt="Aozora interior" 
                     width={400} 
                     height={300} 
