@@ -1,0 +1,68 @@
+"use client";
+
+import {useState} from "react";
+import Image from "next/image";
+import type { MenuItem } from "@/types/menu";
+//display function
+export default function MenuItemCard({ item }: { item: MenuItem }) {
+  const [failedImageSrc, setFailedImageSrc] = useState<string | null>(null);
+  return (
+    <article className="mb-3 flex items-start gap-4 rounded-xl border border-aozora-dark/10 bg-aozora-cream p-4 shadow-sm">
+      <div className="min-w-0 flex-1">
+        <div className="flex flex-wrap items-center gap-2">
+          <h3 className="text-lg font-semibold">{item.name}</h3>
+          
+          {item.vegetarian && (
+            <span className="rounded border border-green-700 px-2 py-0.5 text-xs font-semibold text-green-700">
+              V
+            </span>
+          )}
+          
+        </div>
+
+        {item.description && (
+          <p className="mt-1 text-sm">{item.description}</p>
+        )}
+
+        {item.price !== undefined ? (
+          <p className="mt-2 font-semibold">
+            Rs. {item.price}
+          </p>
+        ) : item.only !== undefined ? (
+          <div className="mt-2 flex flex-wrap gap-4 font-semibold">
+            <span>Only: Rs. {item.only}</span>
+            <span>Set: Rs. {item.set}</span>
+          </div>
+        ): item.price300ml !== undefined ? (
+          <div className="mt-2 flex flex-wrap gap-4 font-semibold">
+            <span>300ml: Rs. {item.price300ml}</span>
+            <span>500ml: Rs. {item.price500ml}</span>
+          </div>
+        ): (
+          <div className="mt-2 flex flex-wrap gap-4 font-semibold">
+            <span>60ml: Rs. {item.price60ml}</span>
+            <span>180ml: Rs. {item.price180ml}</span>
+          </div>
+        )}
+      </div>
+
+      {"image" in item && (
+        item.image && failedImageSrc !== item.image ? (
+          <Image
+            src={item.image}
+            alt={item.name}
+            width={192}
+            height={144}
+            className="h-36 w-48 shrink-0 rounded-lg object-cover"
+            onError={() => setFailedImageSrc(item.image ?? null)}
+          />
+        ) : (
+          <div className="flex h-36 w-48 shrink-0 items-center justify-center rounded-lg border border-aozora-dark/10 bg-aozora-cream px-3 text-center text-sm text-aozora-dark/60">
+            📷 Picture Coming Soon
+          </div>
+        )
+      )}
+    
+    </article>
+  );
+}
