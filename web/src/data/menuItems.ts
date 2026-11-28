@@ -11,7 +11,7 @@ export const menuItems: MenuItem[] = [
     vegetarian: true,
     description: "Set consists of a bowl of rice, miso soup, and daily side dishes. Side dishes may vary.",
     price:300,
-    image: "/images/set.png",
+    image: "/images/set.webp",
   },
   {
     id: 1,
@@ -21,7 +21,7 @@ export const menuItems: MenuItem[] = [
     description: "Tofu (beans curd) fried in a light batter and served with a thick sauce.",
     only: 360,
     set: 660,
-    image: "/images/agedashitofu.png",
+    image: "/images/agedashitofu.webp",
   },
   {
     id: 2,
@@ -31,7 +31,7 @@ export const menuItems: MenuItem[] = [
     description: "Deep fried breaded cheese.",
     only: 400,
     set: 700,
-    image: "/images/cheesefried.png",
+    image: "/images/cheesefried.webp",
   },
   {
     id: 3,
@@ -40,7 +40,7 @@ export const menuItems: MenuItem[] = [
     description: "Japanese style pan fried dumpling (chicken or pork).",
     only: 390,
     set: 690,
-    image: "/images/gyouza.png",
+    image: "/images/gyouza.webp",
   },
   {
     id: 4,
@@ -50,7 +50,7 @@ export const menuItems: MenuItem[] = [
     description: "Stir fried vegetables.",
     only: 350,
     set: 650,
-    image: "/images/yasaitame.png",
+    image: "/images/yasaitame.webp",
   },
   {
     id: 5,
@@ -59,7 +59,7 @@ export const menuItems: MenuItem[] = [
     description: "Stir fried vegetables with chicken, pork, or tofu.",
     only: 400,
     set: 700,
-    image: "/images/yasaitame.png",
+    image: "/images/yasaitame.webp",
   },
   {
     id: 6,
@@ -69,7 +69,7 @@ export const menuItems: MenuItem[] = [
     description: "Deep fried breaded potato croquette.",
     only: 370,
     set: 670,
-    image: "/images/korokke.png",
+    image: "/images/korokke.webp",
   },
   {
     id: 7,
@@ -78,7 +78,7 @@ export const menuItems: MenuItem[] = [
     description: "Deep fried breaded prawn.",
     only: 480,
     set: 780,
-    image: "/images/prawnfried.png",
+    image: "/images/prawnfried.webp",
   },
   {
     id: 8,
@@ -87,7 +87,7 @@ export const menuItems: MenuItem[] = [
     description: "Pork fried with ginger.",
     only: 460,
     set: 760,
-    image: "/images/syougayaki.png",
+    image: "/images/syougayaki.webp",
   },
   {
     id: 9,
@@ -96,7 +96,7 @@ export const menuItems: MenuItem[] = [
     description: "Deep fried breaded pork/chicken/fish cutlet.",
     only: 450,
     set: 750,
-    image: "/images/tonkatsu.png",
+    image: "/images/tonkatsu.webp",
   },
   {
     id: 10,
@@ -105,7 +105,7 @@ export const menuItems: MenuItem[] = [
     description: "Salt grilled mackerel.",
     only: 850,
     set: 1150,
-    image: "/images/sabanosioyaki.png",
+    image: "/images/sabanosioyaki.webp",
   },
   {
     id: 11,
@@ -114,7 +114,7 @@ export const menuItems: MenuItem[] = [
     description: "Salted grilled rainbow trout.",
     only: 680,
     set: 980,
-    image: "/images/nijimasusioyaki.png",
+    image: "/images/nijimasusioyaki.webp",
   },
   {
     id: 12,
@@ -123,7 +123,7 @@ export const menuItems: MenuItem[] = [
     description: "Boiled mackerel with ginger flavour soya based sauce.",
     only: 850,
     set: 1150,
-    image:"/images/sabanonitsuke.png"
+    image:"/images/sabanonitsuke.webp"
   },
   {
     id: 13,
@@ -132,7 +132,7 @@ export const menuItems: MenuItem[] = [
     description: "Fish cooked with sweetened soya sauce.",
     only: 460,
     set: 760,
-    image: "/images/fishteriyaki.png",
+    image: "/images/fishteriyaki.webp",
   },
   {
     id: 14,
@@ -141,7 +141,7 @@ export const menuItems: MenuItem[] = [
     description: "Chicken cooked with sweetened soya sauce.",
     only: 490,
     set: 790,
-    image: "/images/chickenteriyaki.png",
+    image: "/images/chickenteriyaki.webp",
   },
   {
     id: 15,
@@ -150,7 +150,7 @@ export const menuItems: MenuItem[] = [
     description: "Prawn, meat & vegetable cooked with chinese style sticky sauce.",
     only: 460,
     set: 760,
-    image: "/images/happosai.png",
+    image: "/images/happosai.webp",
   },
   {
     id: 16,
@@ -159,7 +159,7 @@ export const menuItems: MenuItem[] = [
     description: "Stir-fried beef & capsicum.",
     only: 480,
     set: 780,
-    image: "/images/gyunikupiman.png",
+    image: "/images/gyunikupiman.webp",
   },
   {
     id: 17,
@@ -168,7 +168,7 @@ export const menuItems: MenuItem[] = [
     description: "Stir-fried shrimp with chilly sauce.",
     only: 700,
     set: 1000,
-    image: "/images/prawnchilly.png",
+    image: "/images/prawnchilly.webp",
   },
   {
     id: 18,
@@ -177,7 +177,7 @@ export const menuItems: MenuItem[] = [
     description: "Stir-fried chicken & capsicum.",
     only: 460,
     set: 760,
-    image: "/images/torinikupiman.png"
+    image: "/images/torinikupiman.webp"
   },
   {
     id: 19,
@@ -186,7 +186,7 @@ export const menuItems: MenuItem[] = [
     description: "Tofu (beans curd) and minced pork (or chicken) cooked with chilli sauce.",
     only: 400,
     set: 700,
-    image: "/images/maboutofu.png",
+    image: "/images/maboutofu.webp",
   },
   {
     id: 20,
@@ -195,7 +195,7 @@ export const menuItems: MenuItem[] = [
     description: "Deep fried breaded pork with paste of pickled plum.",
     only: 490,
     set: 790,
-    image: "/images/umekatsu.png",
+    image: "/images/umekatsu.webp",
   },
   {
     id: 21,
@@ -204,7 +204,7 @@ export const menuItems: MenuItem[] = [
     description: "Deep fried breaded pork with cheese.",
     only: 490,
     set: 790,
-    image: "/images/umekatsu.png",
+    image: "/images/umekatsu.webp",
   },
   {
     id: 22,
@@ -214,7 +214,7 @@ export const menuItems: MenuItem[] = [
     description: "Aubergine and minced pork/chicken/tofu cooked with miso sauce.",
     only: 430,
     set: 730,
-    image: "/images/nasomisoitame.png",
+    image: "/images/nasomisoitame.webp",
   },
   {
     id: 23,
@@ -223,7 +223,7 @@ export const menuItems: MenuItem[] = [
     description: "Deep-fried chicken which coated with a seasoned wheat flour.",
     only: 460,
     set: 760,
-    image: "/images/torikaraage.png",
+    image: "/images/torikaraage.webp",
   },
   {
     id: 24,
@@ -232,7 +232,7 @@ export const menuItems: MenuItem[] = [
     description: "Fried chicken in spicy sauce.",
     only: 480,
     set: 780,
-    image: "/images/torikaraagepirikarasauce.png",
+    image: "/images/torikaraagepirikarasauce.webp",
   },
   {
     id: 25,
@@ -241,7 +241,7 @@ export const menuItems: MenuItem[] = [
     description: "Grilled chicken on a stick with sweet sauce.",
     only: 460,
     set: 760,
-    image: "/images/yakitori.png",
+    image: "/images/yakitori.webp",
   },
   {
     id: 26,
@@ -250,7 +250,7 @@ export const menuItems: MenuItem[] = [
     description: "Salted grilled chicken on the stick.",
     only: 490,
     set: 790,
-    image: "/images/sioyakitori.png",
+    image: "/images/sioyakitori.webp",
   },
   {
     id: 27,
@@ -259,7 +259,7 @@ export const menuItems: MenuItem[] = [
     description: "A dish of prawn and mixed vegetables that have been battered and deep fried.",
     only: 520,
     set: 820,
-    image: "/images/tempura.png",
+    image: "/images/tempura.webp",
   },
   {
     id: 28,
@@ -269,7 +269,7 @@ export const menuItems: MenuItem[] = [
     description: "Vegetables that have been battered and deep fried.",
     only: 390,
     set: 690,
-    image: "/images/tempura.png",
+    image: "/images/tempura.webp",
   },
   {
     id: 29,
@@ -278,7 +278,7 @@ export const menuItems: MenuItem[] = [
     description: "Prawns that have been battered and deep fried.",
     only: 700,
     set: 1000,
-    image: "/images/tempura.png",
+    image: "/images/tempura.webp",
   },
   {
     id: 30,
@@ -288,7 +288,7 @@ export const menuItems: MenuItem[] = [
     description: "Beans curd steak topped with mushroom gravy.",
     only: 450,
     set: 750,
-    image: "/images/tofusteak.png",
+    image: "/images/tofusteak.webp",
   },
   {
     id: 31,
@@ -297,7 +297,7 @@ export const menuItems: MenuItem[] = [
     description: "Fried chicken with tarter sauce.",
     only: 490,
     set: 790,
-    image: "/images/chickennanban.png",
+    image: "/images/chickennanban.webp",
   },
   // DONBURI
   {
@@ -306,7 +306,7 @@ export const menuItems: MenuItem[] = [
     category: "Donburi",
     description: "A bowl of rice topped with a deep fried pork or chicken cutlet",
     price: 700,
-    image: "/images/katsudon.png",
+    image: "/images/katsudon.webp",
   },
   {
     id: 33,
@@ -314,7 +314,7 @@ export const menuItems: MenuItem[] = [
     category: "Donburi",
     description: "A bowl of rice topped with various tempura pieces which are dipped into sweet soya tasted sauce before served on top of the rice",
     price: 700,
-    image: "/images/tendon.png",
+    image: "/images/tendon.webp",
   },
   {
     id: 34,
@@ -322,7 +322,7 @@ export const menuItems: MenuItem[] = [
     category: "Donburi",
     description: "A bowl of rice topped with stir-fried vegetable and slices of pork",
     price: 650,
-    image: "/images/chukadon.png",
+    image: "/images/chukadon.webp",
   },
   {
     id: 35,
@@ -330,7 +330,7 @@ export const menuItems: MenuItem[] = [
     category: "Donburi",
     description: "A bowl of rice topped with chicken cooked with sweet soya based sauce",
     price: 700,
-    image: "/images/teriyakidon.png",
+    image: "/images/teriyakidon.webp",
   },
   {
     id: 36,
@@ -339,7 +339,7 @@ export const menuItems: MenuItem[] = [
     vegetarian: true,
     description: "A scrambled egg mixed with sweet donburi sauce on rice",
     price: 550,
-    image: "/images/oyakodon.png",
+    image: "/images/oyakodon.webp",
   },
   {
     id: 37,
@@ -347,7 +347,7 @@ export const menuItems: MenuItem[] = [
     category: "Donburi",
     description: "A bowl of rice topped with chicken, egg and sliced onions cooked together in sauce",
     price: 650,
-    image: "/images/oyakodon.png",
+    image: "/images/oyakodon.webp",
   },
   {
     id: 38,
@@ -355,7 +355,7 @@ export const menuItems: MenuItem[] = [
     category: "Donburi",
     description: "A bowl of rice topped with pork cooked in a midly sweet sauce",
     price: 700,
-    image: "/images/butadon.png",
+    image: "/images/butadon.webp",
   },
   {
     id: 39,
@@ -363,7 +363,7 @@ export const menuItems: MenuItem[] = [
     category: "Donburi",
     description: "A combination of tofu and pork or chicken set in spicy chilli and bean based sauce",
     price: 650,
-    image: "/images/mabodon.png",
+    image: "/images/mabodon.webp",
   },
   // SUSHI
   {
@@ -373,7 +373,7 @@ export const menuItems: MenuItem[] = [
     vegetarian: true,
     description: "cucumber and rice rolled in dried seaweed",
     price: 500,
-    image: "/images/kappamaki.png",
+    image: "/images/kappamaki.webp",
   },
   {
     id: 41,
@@ -381,7 +381,7 @@ export const menuItems: MenuItem[] = [
     category: "Sushi",
     description: "Sushi rice rolled in dried seaweed sheets with Tuna (canned) & vegetables",
     price: 680,
-    image: "/images/norimaki.png",
+    image: "/images/norimaki.webp",
   },
   {
     id: 42,
@@ -389,7 +389,7 @@ export const menuItems: MenuItem[] = [
     category: "Sushi",
     description: "6 pieces. A slice of raw tuna over pressed vinegared rice (1PC-225)",
     price: 1350,
-    image: "/images/tunanigirisushi.png",
+    image: "/images/tunanigirisushi.webp",
   },
   {
     id: 43,
@@ -397,7 +397,7 @@ export const menuItems: MenuItem[] = [
     category: "Sushi",
     description: "Tuna (canned) mayonnaise and rice rolled in dried seaweed",
     price: 680,
-    image: "/images/tunamayonnaisemaki.png",
+    image: "/images/tunamayonnaisemaki.webp",
   },
   {
     id: 44,
@@ -405,7 +405,7 @@ export const menuItems: MenuItem[] = [
     category: "Sushi",
     description: "Deep fried breaded chiken cutlet and rice rolled in dried seaweed",
     price: 680,
-    image: "/images/chickencutletmaki.png",
+    image: "/images/chickencutletmaki.webp",
   },
   {
     id: 45,
@@ -413,7 +413,7 @@ export const menuItems: MenuItem[] = [
     category: "Sushi",
     description: "6 pieces. A slice of raw salmon over pressed vinigared rice (1PC-225)",
     price: 1300,
-    image: "/images/salmonnigirisushi.png",
+    image: "/images/salmonnigirisushi.webp",
   },
   {
     id: 46,
@@ -421,14 +421,14 @@ export const menuItems: MenuItem[] = [
     category: "Sushi",
     description: "deep fried breaded prawn and rice rolled in the dried seaweed",
     price: 700,
-    image: "/images/prawnmaki.png",
+    image: "/images/prawnmaki.webp",
   },
   {
     id: 47,
     name: "Mix Sushi Plate",
     category: "Sushi",
     price: 1500,
-    image: "/images/mixsushiplate.png",
+    image: "/images/mixsushiplate.webp",
   },
   {
     id: 48,
@@ -437,7 +437,7 @@ export const menuItems: MenuItem[] = [
     vegetarian: true,
     description: "Avocado and rice rolled in dried seaweed",
     price: 680,
-    image: "/images/avocadorollsushi.png",
+    image: "/images/avocadorollsushi.webp",
   },
   {
     id: 49,
@@ -445,7 +445,7 @@ export const menuItems: MenuItem[] = [
     category: "Sushi",
     description: "Avocado, salmon, and rice rolled in dried seaweed",
     price: 990,
-    image: "/images/avocadosalmaonrollsushi.png",
+    image: "/images/avocadosalmaonrollsushi.webp",
   },
   // RAMEN
   {
@@ -454,7 +454,7 @@ export const menuItems: MenuItem[] = [
     category: "Ramen",
     description: "Ramen with slice of roasted pork",
     price: 500,
-    image:"/images/simpleramen.png",
+    image:"/images/simpleramen.webp",
   },
   {
     id: 51,
@@ -462,7 +462,7 @@ export const menuItems: MenuItem[] = [
     category: "Ramen",
     description: "Ramen with roasted pork & Vegetables",
     price: 750,
-    image:"/images/chasumen.png",
+    image:"/images/chasumen.webp",
   },
   {
     id: 52,
@@ -470,7 +470,7 @@ export const menuItems: MenuItem[] = [
     category: "Ramen",
     description: "Miso flavored soup, topped with stir fried pork or chicken and vegetables",
     price: 750,
-    image:"/images/misoramen.png",
+    image:"/images/misoramen.webp",
   },
   {
     id: 53,
@@ -478,7 +478,7 @@ export const menuItems: MenuItem[] = [
     category: "Ramen",
     description: "Ramen salt flavored soup with stir fried vegetables",
     price: 700,
-    image:"/images/misoramen.png",
+    image:"/images/misoramen.webp",
   },
   {
     id: 54,
@@ -486,7 +486,7 @@ export const menuItems: MenuItem[] = [
     category: "Ramen",
     description: "Ramen with roasted pork & boil egg",
     price: 750,
-    image:"/images/tamagoramen.png",
+    image:"/images/tamagoramen.webp",
   },
   {
     id: 55,
@@ -494,7 +494,7 @@ export const menuItems: MenuItem[] = [
     category: "Ramen",
     description: "Simple ramen with half serving of fried rice",
     price: 750,
-    image:"/images/ramenhalfchahan.png",
+    image:"/images/ramenhalfchahan.webp",
   },
   // BENTO BOX
   {
@@ -503,7 +503,7 @@ export const menuItems: MenuItem[] = [
     category: "Bento Box",
     price: 990,
     description: "Complete Japanese meal box with steamed rice, crispy fried prawns, teriyaki chicken, tamagoyaki, fresh salad, pickles, and miso soup.",
-    image: "/images/regularbentobox.png", 
+    image: "/images/regularbentobox.webp", 
   }, 
   {
     id: 57,
@@ -511,7 +511,7 @@ export const menuItems: MenuItem[] = [
     category: "Bento Box",
     description: "Regular bento box plus you can choose your own sushi tuna/prawn/chicken/veg.", 
     price: 1300, 
-    image: "/images/sushibentobox.png", 
+    image: "/images/sushibentobox.webp", 
   },
   // CURRY RICE
   
@@ -522,7 +522,7 @@ export const menuItems: MenuItem[] = [
     description: "Japanese vegetable curry served with rice",
     vegetarian: true,
     price: 600,
-    image: "/images/vegcurryrice.png",
+    image: "/images/vegcurryrice.webp",
   },
   {
     id: 59,
@@ -530,7 +530,7 @@ export const menuItems: MenuItem[] = [
     category: "Curry Rice",
     description: "Japanese chicken curry served with rice", 
     price: 700,
-    image: "/images/chickencurryrice.png", 
+    image: "/images/chickencurryrice.webp", 
   },
   {
     id: 60,
@@ -538,7 +538,7 @@ export const menuItems: MenuItem[] = [
     category: "Curry Rice",
     description: "Japanese curry served with rice, topped with pork/chicken cutlet", //[cite: 7]
     price: 750,
-    image: "/images/katsucurryrice.png",  
+    image: "/images/katsucurryrice.webp",  
   },
   // UDON/SOBA
   {
@@ -548,7 +548,7 @@ export const menuItems: MenuItem[] = [
     vegetarian: true,
     description: "Udon in the soup toped with Tempura deep fried vegetable & prawn", 
     price: 750, 
-    image: "/images/tempuraudon.png",
+    image: "/images/tempuraudon.webp",
   },
   {
     id: 62,
@@ -556,7 +556,7 @@ export const menuItems: MenuItem[] = [
     category: "Udon/Soba",
     description: "Udon with chicken in the soup", 
     price: 680, 
-    image: "/images/toriudon.png",
+    image: "/images/toriudon.webp",
   },
   {
     id: 63,
@@ -565,7 +565,7 @@ export const menuItems: MenuItem[] = [
     vegetarian: true,
     description: "Udon in the soup with wakame", 
     price: 550, 
-    image: "/images/simpleudon.png",
+    image: "/images/simpleudon.webp",
   },
   {
     id: 64,
@@ -573,7 +573,7 @@ export const menuItems: MenuItem[] = [
     category: "Udon/Soba",
     description: "Udon in curry soup", 
     price: 680, 
-    image: "/images/curryudon.png",
+    image: "/images/curryudon.webp",
   },
   {
     id: 65,
@@ -582,7 +582,7 @@ export const menuItems: MenuItem[] = [
     vegetarian: true,
     description: "Fried Udon noodles with tofu/chicken", 
     price: 600, 
-    image: "/images/yakiudon.png",
+    image: "/images/yakiudon.webp",
   },
   {
     id: 66,
@@ -591,7 +591,7 @@ export const menuItems: MenuItem[] = [
     vegetarian: true,
     description: "Soba in soya based soup", 
     price: 630,
-    image: "/images/simplesoba.png", 
+    image: "/images/simplesoba.webp", 
   },
 
   // RICE
@@ -642,7 +642,7 @@ export const menuItems: MenuItem[] = [
     category: "Salad",
     description: "Cold beans curd with grated ginger chopped green onion & granted dried fish", 
     price: 190,
-    image:"/images/hiyayakkotofu.png", 
+    image:"/images/hiyayakkotofu.webp", 
   },
   {
     id: 73,
@@ -651,7 +651,7 @@ export const menuItems: MenuItem[] = [
     vegetarian: true,
     description: "Soft tofu (beans curd) with dressing", 
     price: 290, 
-    image:"/images/tofusalad.png",
+    image:"/images/tofusalad.webp",
   },
   {
     id: 74,
@@ -660,7 +660,7 @@ export const menuItems: MenuItem[] = [
     vegetarian: true,
     description: "Rice Vermicelli salad", 
     price: 290,
-    image:"/images/ricenoodlesalad.png", 
+    image:"/images/ricenoodlesalad.webp", 
   },
   {
     id: 75,
@@ -669,7 +669,7 @@ export const menuItems: MenuItem[] = [
     description: "Seasonable fresh vegetables", 
     vegetarian: true,
     price: 280, 
-    image:"/images/boiledvegsalad.png",
+    image:"/images/boiledvegsalad.webp",
   },
   {
     id: 76,
@@ -678,7 +678,7 @@ export const menuItems: MenuItem[] = [
     description: "Spinach with Japanese style sesame dressing", 
     vegetarian: true,
     price: 250,
-    image:"/images/gomaae.png", 
+    image:"/images/gomaae.webp", 
   },
   {
     id: 77,
@@ -687,7 +687,7 @@ export const menuItems: MenuItem[] = [
     description: "Seasonable fresh vegetables", 
     vegetarian: true,
     price: 250, 
-    image:"/images/greensalad.png",
+    image:"/images/greensalad.webp",
   },
   {
     id: 78,
@@ -696,7 +696,7 @@ export const menuItems: MenuItem[] = [
     description: "Cucumber and seaweed with japanese mustard dressing", 
     vegetarian: true,
     price: 200,
-    image:"/images/karashiae.png" 
+    image:"/images/karashiae.webp" 
   },
   {
     id: 79,
@@ -705,7 +705,7 @@ export const menuItems: MenuItem[] = [
     description: "Sweet vinegar with cucumber & seaweed", 
     vegetarian: true,
     price: 200,
-    image:"/images/sunomono.png", 
+    image:"/images/sunomono.webp", 
   },
   // DESSERT
   {
@@ -714,7 +714,7 @@ export const menuItems: MenuItem[] = [
     category: "Dessert",
     vegetarian: true,
     price: 150, 
-    image:"/images/icecream.png",
+    image:"/images/icecream.webp",
   },
   {
     id: 81,
@@ -722,7 +722,7 @@ export const menuItems: MenuItem[] = [
     category: "Dessert",
     vegetarian: true,
     price: 300, 
-    image:"/images/chocolatesundae.png",
+    image:"/images/chocolatesundae.webp",
   },
   {
     id: 82,
@@ -730,7 +730,7 @@ export const menuItems: MenuItem[] = [
     category: "Dessert",
     vegetarian: true,
     price: 190, 
-    image:"/images/custardpudding.png",
+    image:"/images/custardpudding.webp",
   },
 
   // DRINKS - House Special
@@ -740,7 +740,7 @@ export const menuItems: MenuItem[] = [
     category: "Drinks",
     subcategory: "House Special",
     price: 250,
-    image:"/images/plumsoda.png", 
+    image:"/images/plumsoda.webp", 
   },
   {
     id: 84,
@@ -748,7 +748,7 @@ export const menuItems: MenuItem[] = [
     category: "Drinks",
     subcategory: "House Special",
     price: 150, 
-    image:"/images/gingerale.png",
+    image:"/images/gingerale.webp",
   },
 
   // DRINKS - Soft Drinks

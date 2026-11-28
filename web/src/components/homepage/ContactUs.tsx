@@ -9,7 +9,7 @@ export default function ContactUs() {
         {/* 1. Logo Section */}
         <div className="flex justify-center md:justify-start">
           <Image 
-            src="/images/logo.PNG" 
+            src="/images/logo.webp" 
             alt="Aozora Logo" 
             width={320}
             height={320}

@@ -6,7 +6,7 @@ export default function HeroBanner() {
             <h1 className="text-4xl font-bold mb-4 text-aozora-dark">Welcome</h1>
             <div className="flex justify-center md:justify-start">
                       <Image 
-                        src="/images/logo.PNG" 
+                        src="/images/logo.webp" 
                         alt="Aozora Logo" 
                         width={320}
                         height={320}
